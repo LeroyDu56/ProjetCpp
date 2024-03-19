@@ -25,6 +25,7 @@ int main(int argc, char **argv) {
     } else {
         std::cout << "=> Error: parameter must be 0 or 1" << std::endl;
         return 1;
+    }
 
     return 0;
 }
