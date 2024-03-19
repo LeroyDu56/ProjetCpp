@@ -33,6 +33,8 @@ int main() {
     char commande;
     int numCommande = 0;
 
+    std::cout << "Debut du programme." << std::endl;
+    
     while (true) {
         char c = getch();
         numCommande++;
