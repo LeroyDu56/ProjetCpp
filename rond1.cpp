@@ -4,7 +4,7 @@
 
 int main(int argc, char **argv)
 {
-    ros::init(argc, argv, "EnzoRos");
+    ros::init(argc, argv, "rond1");
     ros::NodeHandle n;
     // Correct the queue size in advertise method and ensure generic type is properly cased
     ros::Publisher vel_pub = n.advertise<geometry_msgs::Twist>("turtle1/cmd_vel", 10);
